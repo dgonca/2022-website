@@ -1,0 +1,242 @@
+
+
+.first-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DBB3B1;
+
+  .cta {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .row1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      .row1text {
+        padding-right: 20px;
+        width: 50%;
+      }
+
+      h1 {
+        margin: 5px;
+        margin-right: 15px;
+        font-family: 'Chicle';
+        font-weight: normal;
+        letter-spacing: 5px;
+        font-size: 70px;
+        color: #2C1A1D;
+      }
+
+      h3 {
+        font-size: 30px;
+        margin: 5px;
+        font-family: 'Bodoni Moda';
+        font-style: italic;
+
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #2C1A1D;
+      }
+
+      img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border: 3px solid #FCE9F1;
+        margin-left: 20px;
+      }
+    }
+
+    .row2text {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Chicle';
+      margin-top: 50px;
+
+      h3 {
+        letter-spacing: 5px;
+        margin: 0 50px;
+        font-size: 25px;
+        color: #2C1A1D;
+        &:hover {
+          color: #6C534E;
+          font-style: italic;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}
+
+.second-wrapper {
+  background-color: #9B5960;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  .inner-second-wrap {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+
+    .about-menu {
+      width: 10%;
+      h4 {
+        font-family: 'Bodoni Moda';
+        color: #2C1A1D;
+        font-style: italic;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 18px;
+
+        &:hover {
+          color: #FCE9F1;
+          cursor: pointer;
+        }
+      }
+    }
+    .about-dom-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 70%;
+      align-items: center;
+      margin-left: 40px;
+      img {
+        width: auto;
+        height: 464px;
+        border-radius: 10px;
+        margin: 0 20px;
+        border: 3px solid #FCE9F1;
+      }
+      .bio {
+        width: 50%;
+        margin-left: 40px;
+        h1 {
+          font-family: 'Chicle';
+          letter-spacing: 7px;
+          color: #FCE9F1;
+          font-size: 50px;
+          margin: 0;
+        }
+        p {
+          font-family: 'Bodoni Moda';
+          font-size: 20px;
+          color: #271719;
+          font-weight: 600;
+
+          a {
+            color: #271719;
+            text-decoration: none;
+            font-style: italic;
+            margin: 0;
+
+            &:hover {
+              color: #FCE9F1;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.education-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 300px;
+
+  .school-logo {
+    font-size: 100px;
+    font-family: 'Playfair Display';
+    font-weight: 700px;
+    // font-style: italic;
+    margin: 0;
+    color: #FCE9F1;
+  }
+  h3 {
+    margin: 0;
+    font-family: 'Bodoni Moda';
+    width: 90%;
+    color: #FCE9F1;
+    text-align: center;
+    font-size: 25px;
+  }
+  h5 {
+    font-family: 'Bodoni Moda';
+    margin: 0;
+    width: 90%;
+    text-transform: uppercase;
+    color: #FCE9F1;
+    text-align: center;
+    margin: 5px;
+    font-family: 20px;
+  }
+}
+
+.header {
+  position: fixed;
+  // background: transpar
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  h3 {
+    font-family: 'Chicle';
+    font-size: 50px;
+    margin: 0px 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FCE9F1;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+
+    h4 {
+      color: #FCE9F1;
+      font-family: 'Chicle';
+      letter-spacing: 5px;
+      margin: 0 20px;
+      font-size: 30px;
+
+
+      &:hover {
+        cursor: pointer;
+        color: #A67F8E;
+      }
+    }
+
+  }
+}
